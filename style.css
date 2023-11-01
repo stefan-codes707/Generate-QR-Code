@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.header{
+    width:100%;
+    padding:0px 0 0px 40px;
+    background-color: #5478ee;
+    color: #fff;
+    position: fixed;
+    top:0; left:0;
+}
+
+.contenedor{padding-top: 40px;}
+
+.contenedor form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor button{
+    margin: 20px 0;
+    padding:8px 10px;
+    color: #fff;
+    background-color: #5478ee;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.contenedor input{
+    padding:8px 15px;
+    width: 100%;
+}
+
+.contenedorQR img{
+    width: 250px;
+}
